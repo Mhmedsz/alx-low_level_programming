@@ -1,17 +1,14 @@
-#include
-#include
-main -
-rror
-< stdio.h>
-< unistd.h>
-A c program that prints a
-• Return 1 (Success)
-main(void)
-int
-fput(
-par,
-return (I);
-line to the standard e
-Dora Kor
-that piece of art
-stdout
+#include <unistd.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: 1 (error).
+*/
+
+int main(void)
+{	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, quo, 59);
+	return (1);
+}
