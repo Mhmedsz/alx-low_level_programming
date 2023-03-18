@@ -21,7 +21,7 @@ int main(void)
 			putchar (i + '0');
 			putchar (i + '0');
 			putchar (' ');
-			putchar (j + '0');
+			putchar (i + '0');
 			putchar (j + '0');
 			if (i != 98 || j != 99)
 			{
