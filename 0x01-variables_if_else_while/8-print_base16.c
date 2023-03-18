@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int num[] = "0123456789abcdef";
+	char num[] = "0123456789abcdef";
 
 	int i;
 
@@ -17,6 +17,6 @@ int main(void)
 	{
 		putchar (num[i]);
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
