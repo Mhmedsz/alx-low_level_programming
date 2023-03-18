@@ -9,14 +9,14 @@
 
 int main(void)
 {
-        char letters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char letters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-        int i;
+	int i;
 
-        for (i = 0; i < 52; i++)
-        {
-                putchar (letters[i]);
-        }
-        putchar('\n');
-        return (0);
+	for (i = 0; i < 52; i++)
+	{
+		putchar(letters[i]);
+	}
+	putchar('\n');
+	return (0);
 }
