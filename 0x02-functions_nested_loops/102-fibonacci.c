@@ -7,7 +7,8 @@
 */
 int main(void)
 {
-	int i, f1 = 0, f2 = 1, sum;
+	int i;
+	unsigned long f1 = 0, f2 = 1, sum;
 
 	for (i = 0; i < 50; i++)
 	{
@@ -19,7 +20,7 @@ int main(void)
 
 		if (i == 49)
 			printf("\n");
-		else 
+		else
 			printf(", ");
 	}
 	return (0);
