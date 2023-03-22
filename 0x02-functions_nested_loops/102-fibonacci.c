@@ -9,7 +9,7 @@ int main(void)
 {
 	int i, f1 = 0, f2 = 1, sum;
 
-	for (i = 1; i < 50; count++)
+	for (i = 1; i < 50; i++)
 	{
 		if (i == 1)
 			printf("%d", f1);
