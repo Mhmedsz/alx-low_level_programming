@@ -5,7 +5,6 @@
  *
  * Return: Always 0 (Success)
 */
-
 int main(void)
 {
 	char x[] = "_putchar";
@@ -16,5 +15,5 @@ int main(void)
 		_putchar(x[i]);
 	}
 	putchar ('\n');
-	return (0) ;
+	return (0);
 }
