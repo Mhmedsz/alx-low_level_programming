@@ -5,6 +5,7 @@
  *
  * @n: is the number of times the character \ should be printed
 */
+
 void print_diagonal(int n)
 {
 	int i, j;
@@ -15,7 +16,7 @@ void print_diagonal(int n)
 	{
 		for (i = 1; i <= n; i++)
 		{
-			for (j = 1; j <= i; j++)
+			for (j = 1; j < i; j++)
 			{
 				_putchar(' ');
 			}
