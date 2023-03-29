@@ -1,23 +1,33 @@
 #include "main.h"
 
 /**
- * print_array - check for char
- * @a: parameter
- * @n: parameter
+ * puts_half - check for char
+ * @str: parameter
  *
- */
+*/
 
-void print_array(int *a, int n)
+void puts_half(char *str)
 {
-	int i;
+	int len, i, middle;
+	char *y = str;
 
-	for (i = 0; i < (n - 1); i++)
+	len = 0;
+	while (*y != '\0')
 	{
-		printf("%d, ", a[i]);
+		y++;
+		len++;
 	}
-	if (i == n - 1)
+	if (len % 2 == 1)
 	{
-		printf("%d", a[n - 1]);
+		middle = (len + 1) / 2;
 	}
-	printf("\n");
+	else
+	{
+		middle = len / 2;
+	}
+	for (i = middle; i < len; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
